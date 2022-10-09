@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BT5</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container my-3">
+        <h1>carousel slides only</h1>
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- carousel starts -->
+            <div id="car_slides" class="carousel slide" data-bs-ride="carousel">
+              <!-- inner starts -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/thunder.jpg"
+                    class="d-block w-100"
+                    alt="thunder"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/leaves.jpg"
+                    class="d-block w-100"
+                    alt="leaves"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/nature.jpg"
+                    class="d-block w-100"
+                    alt="nature"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/glaxy.jpg"
+                    class="d-block w-100"
+                    alt="galaxy"
+                  />
+                </div>
+              </div>
+              <!-- inner end -->
+            </div>
+            <!-- carousel end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h2>carousel with controls</h2>
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- carousel starts -->
+            <div
+              id="carousel_ex_c"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <!-- inner start -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/glaxy.jpg"
+                    class="d-block w-100"
+                    alt="galaxy"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/leaves.jpg"
+                    class="d-block w-100"
+                    alt="leaves"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/nature.jpg"
+                    class="d-block w-100"
+                    alt="nature"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/thunder.jpg"
+                    class="d-block w-100"
+                    alt="thunder"
+                  />
+                </div>
+              </div>
+              <!-- inner end -->
+              <!-- controls start -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carousel_ex_c"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carousel_ex_c"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+              <!-- controls end -->
+            </div>
+            <!-- carousel end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h3>carousel with indicators</h3>
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- carousel start -->
+            <div id="carousel_ex_i" class="carousel slide" data-bs-ride="true">
+              <!-- indicator starts -->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carousel_ex_i"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel_ex_i"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel_ex_i"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel_ex_i"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+              </div>
+              <!-- indicator end -->
+              <!-- inner start -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/leaves.jpg"
+                    class="d-block w-100"
+                    alt="leaves"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/nature.jpg"
+                    class="d-block w-100"
+                    alt="nature"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/thunder.jpg"
+                    class="d-block w-100"
+                    alt="thunder"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/glaxy.jpg"
+                    class="d-block w-100"
+                    alt="galaxy"
+                  />
+                </div>
+              </div>
+              <!-- inner end -->
+              <!-- controls start -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carousel_ex_i"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carousel_ex_i"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+              <!-- controls end -->
+            </div>
+            <!-- carousel end -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h4>carousel with captions</h4>
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- carousel starts -->
+            <div
+              id="carousel_ex_cx"
+              class="carousel slide"
+              data-bs-ride="false"
+            >
+              <!-- indicators start -->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carousel_ex_cx"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel_ex_cx"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel_ex_cx"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel_ex_cx"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+              </div>
+              <!-- indicators end -->
+              <!-- inner start -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/leaves.jpg"
+                    class="d-block w-100"
+                    alt="leaves"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>
+                      Some representative placeholder content for the first
+                      slide.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/nature.jpg"
+                    class="d-block w-100"
+                    alt="nature"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>
+                      Some representative placeholder content for the second
+                      slide.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/glaxy.jpg"
+                    class="d-block w-100"
+                    alt="galaxy"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>
+                      Some representative placeholder content for the third
+                      slide.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/thunder.jpg"
+                    class="d-block w-100"
+                    alt="thunder"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>
+                      Some representative placeholder content for the third
+                      slide.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- inner end -->
+              <!-- controls starts -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carousel_ex_cx"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carousel_ex_cx"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+              <!-- controls end -->
+            </div>
+            <!-- carousel end -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center m">
+      <div class="container">
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          <p class="p1">registration for updates</p>
+        </button>
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title fs-5" id="exampleModalLabel">
+                  <p class="p2">get the latest update</p>
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p class="p3">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Vitae cupiditate sit culpa distinctio recusandae, voluptatem
+                  voluptate repellat alias, aut aliquam totam iure pariatur non?
+                  Autem in sed, itaque sequi facere quod magnam quis similique
+                  laboriosam provident magni animi odio nemo est saepe tempora!
+                  Ex enim unde doloribus nostrum cumque soluta.
+                </p>
+                <label for="modal-email" class="form-label"
+                  >your email addess:</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="modal-email"
+                  placeholder="e.g. shaham@example.com"
+                />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- js links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
